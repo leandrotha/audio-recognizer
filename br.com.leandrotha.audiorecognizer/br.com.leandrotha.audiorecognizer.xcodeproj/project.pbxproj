@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03EDDA7221DF841900F83FE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EDDA7121DF841900F83FE0 /* AppDelegate.swift */; };
+		03EDDA7421DF841900F83FE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EDDA7321DF841900F83FE0 /* ViewController.swift */; };
+		03EDDA7721DF841900F83FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03EDDA7521DF841900F83FE0 /* Main.storyboard */; };
+		03EDDA7921DF841A00F83FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03EDDA7821DF841A00F83FE0 /* Assets.xcassets */; };
+		03EDDA7C21DF841A00F83FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03EDDA7A21DF841A00F83FE0 /* LaunchScreen.storyboard */; };
+		03EDDA8721DF841B00F83FE0 /* br_com_leandrotha_audiorecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EDDA8621DF841B00F83FE0 /* br_com_leandrotha_audiorecognizerTests.swift */; };
+		03EDDA9221DF841B00F83FE0 /* br_com_leandrotha_audiorecognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EDDA9121DF841B00F83FE0 /* br_com_leandrotha_audiorecognizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03EDDA8321DF841B00F83FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03EDDA6621DF841900F83FE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03EDDA6D21DF841900F83FE0;
+			remoteInfo = br.com.leandrotha.audiorecognizer;
+		};
+		03EDDA8E21DF841B00F83FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03EDDA6621DF841900F83FE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03EDDA6D21DF841900F83FE0;
+			remoteInfo = br.com.leandrotha.audiorecognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03EDDA6E21DF841900F83FE0 /* br.com.leandrotha.audiorecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = br.com.leandrotha.audiorecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03EDDA7121DF841900F83FE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03EDDA7321DF841900F83FE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03EDDA7621DF841900F83FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03EDDA7821DF841A00F83FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03EDDA7B21DF841A00F83FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03EDDA7D21DF841A00F83FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03EDDA8221DF841B00F83FE0 /* br.com.leandrotha.audiorecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = br.com.leandrotha.audiorecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03EDDA8621DF841B00F83FE0 /* br_com_leandrotha_audiorecognizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = br_com_leandrotha_audiorecognizerTests.swift; sourceTree = "<group>"; };
+		03EDDA8821DF841B00F83FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03EDDA8D21DF841B00F83FE0 /* br.com.leandrotha.audiorecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = br.com.leandrotha.audiorecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03EDDA9121DF841B00F83FE0 /* br_com_leandrotha_audiorecognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = br_com_leandrotha_audiorecognizerUITests.swift; sourceTree = "<group>"; };
+		03EDDA9321DF841B00F83FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03EDDA6B21DF841900F83FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03EDDA7F21DF841B00F83FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03EDDA8A21DF841B00F83FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03EDDA6521DF841900F83FE0 = {
+			isa = PBXGroup;
+			children = (
+				03EDDA7021DF841900F83FE0 /* br.com.leandrotha.audiorecognizer */,
+				03EDDA8521DF841B00F83FE0 /* br.com.leandrotha.audiorecognizerTests */,
+				03EDDA9021DF841B00F83FE0 /* br.com.leandrotha.audiorecognizerUITests */,
+				03EDDA6F21DF841900F83FE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03EDDA6F21DF841900F83FE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03EDDA6E21DF841900F83FE0 /* br.com.leandrotha.audiorecognizer.app */,
+				03EDDA8221DF841B00F83FE0 /* br.com.leandrotha.audiorecognizerTests.xctest */,
+				03EDDA8D21DF841B00F83FE0 /* br.com.leandrotha.audiorecognizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03EDDA7021DF841900F83FE0 /* br.com.leandrotha.audiorecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				03EDDA7121DF841900F83FE0 /* AppDelegate.swift */,
+				03EDDA7321DF841900F83FE0 /* ViewController.swift */,
+				03EDDA7521DF841900F83FE0 /* Main.storyboard */,
+				03EDDA7821DF841A00F83FE0 /* Assets.xcassets */,
+				03EDDA7A21DF841A00F83FE0 /* LaunchScreen.storyboard */,
+				03EDDA7D21DF841A00F83FE0 /* Info.plist */,
+			);
+			path = br.com.leandrotha.audiorecognizer;
+			sourceTree = "<group>";
+		};
+		03EDDA8521DF841B00F83FE0 /* br.com.leandrotha.audiorecognizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				03EDDA8621DF841B00F83FE0 /* br_com_leandrotha_audiorecognizerTests.swift */,
+				03EDDA8821DF841B00F83FE0 /* Info.plist */,
+			);
+			path = br.com.leandrotha.audiorecognizerTests;
+			sourceTree = "<group>";
+		};
+		03EDDA9021DF841B00F83FE0 /* br.com.leandrotha.audiorecognizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03EDDA9121DF841B00F83FE0 /* br_com_leandrotha_audiorecognizerUITests.swift */,
+				03EDDA9321DF841B00F83FE0 /* Info.plist */,
+			);
+			path = br.com.leandrotha.audiorecognizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03EDDA6D21DF841900F83FE0 /* br.com.leandrotha.audiorecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03EDDA9621DF841B00F83FE0 /* Build configuration list for PBXNativeTarget "br.com.leandrotha.audiorecognizer" */;
+			buildPhases = (
+				03EDDA6A21DF841900F83FE0 /* Sources */,
+				03EDDA6B21DF841900F83FE0 /* Frameworks */,
+				03EDDA6C21DF841900F83FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = br.com.leandrotha.audiorecognizer;
+			productName = br.com.leandrotha.audiorecognizer;
+			productReference = 03EDDA6E21DF841900F83FE0 /* br.com.leandrotha.audiorecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03EDDA8121DF841B00F83FE0 /* br.com.leandrotha.audiorecognizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03EDDA9921DF841B00F83FE0 /* Build configuration list for PBXNativeTarget "br.com.leandrotha.audiorecognizerTests" */;
+			buildPhases = (
+				03EDDA7E21DF841B00F83FE0 /* Sources */,
+				03EDDA7F21DF841B00F83FE0 /* Frameworks */,
+				03EDDA8021DF841B00F83FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03EDDA8421DF841B00F83FE0 /* PBXTargetDependency */,
+			);
+			name = br.com.leandrotha.audiorecognizerTests;
+			productName = br.com.leandrotha.audiorecognizerTests;
+			productReference = 03EDDA8221DF841B00F83FE0 /* br.com.leandrotha.audiorecognizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03EDDA8C21DF841B00F83FE0 /* br.com.leandrotha.audiorecognizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03EDDA9C21DF841B00F83FE0 /* Build configuration list for PBXNativeTarget "br.com.leandrotha.audiorecognizerUITests" */;
+			buildPhases = (
+				03EDDA8921DF841B00F83FE0 /* Sources */,
+				03EDDA8A21DF841B00F83FE0 /* Frameworks */,
+				03EDDA8B21DF841B00F83FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03EDDA8F21DF841B00F83FE0 /* PBXTargetDependency */,
+			);
+			name = br.com.leandrotha.audiorecognizerUITests;
+			productName = br.com.leandrotha.audiorecognizerUITests;
+			productReference = 03EDDA8D21DF841B00F83FE0 /* br.com.leandrotha.audiorecognizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03EDDA6621DF841900F83FE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Leandro Bartsch Thá";
+				TargetAttributes = {
+					03EDDA6D21DF841900F83FE0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					03EDDA8121DF841B00F83FE0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 03EDDA6D21DF841900F83FE0;
+					};
+					03EDDA8C21DF841B00F83FE0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 03EDDA6D21DF841900F83FE0;
+					};
+				};
+			};
+			buildConfigurationList = 03EDDA6921DF841900F83FE0 /* Build configuration list for PBXProject "br.com.leandrotha.audiorecognizer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03EDDA6521DF841900F83FE0;
+			productRefGroup = 03EDDA6F21DF841900F83FE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03EDDA6D21DF841900F83FE0 /* br.com.leandrotha.audiorecognizer */,
+				03EDDA8121DF841B00F83FE0 /* br.com.leandrotha.audiorecognizerTests */,
+				03EDDA8C21DF841B00F83FE0 /* br.com.leandrotha.audiorecognizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03EDDA6C21DF841900F83FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EDDA7C21DF841A00F83FE0 /* LaunchScreen.storyboard in Resources */,
+				03EDDA7921DF841A00F83FE0 /* Assets.xcassets in Resources */,
+				03EDDA7721DF841900F83FE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03EDDA8021DF841B00F83FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03EDDA8B21DF841B00F83FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03EDDA6A21DF841900F83FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EDDA7421DF841900F83FE0 /* ViewController.swift in Sources */,
+				03EDDA7221DF841900F83FE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03EDDA7E21DF841B00F83FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EDDA8721DF841B00F83FE0 /* br_com_leandrotha_audiorecognizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03EDDA8921DF841B00F83FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EDDA9221DF841B00F83FE0 /* br_com_leandrotha_audiorecognizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03EDDA8421DF841B00F83FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03EDDA6D21DF841900F83FE0 /* br.com.leandrotha.audiorecognizer */;
+			targetProxy = 03EDDA8321DF841B00F83FE0 /* PBXContainerItemProxy */;
+		};
+		03EDDA8F21DF841B00F83FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03EDDA6D21DF841900F83FE0 /* br.com.leandrotha.audiorecognizer */;
+			targetProxy = 03EDDA8E21DF841B00F83FE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03EDDA7521DF841900F83FE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03EDDA7621DF841900F83FE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03EDDA7A21DF841A00F83FE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03EDDA7B21DF841A00F83FE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03EDDA9421DF841B00F83FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03EDDA9521DF841B00F83FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03EDDA9721DF841B00F83FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL2AMM3ZF4;
+				INFOPLIST_FILE = br.com.leandrotha.audiorecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leandro.br-com-leandrotha-audiorecognizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03EDDA9821DF841B00F83FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL2AMM3ZF4;
+				INFOPLIST_FILE = br.com.leandrotha.audiorecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leandro.br-com-leandrotha-audiorecognizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03EDDA9A21DF841B00F83FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL2AMM3ZF4;
+				INFOPLIST_FILE = br.com.leandrotha.audiorecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leandro.br-com-leandrotha-audiorecognizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/br.com.leandrotha.audiorecognizer.app/br.com.leandrotha.audiorecognizer";
+			};
+			name = Debug;
+		};
+		03EDDA9B21DF841B00F83FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL2AMM3ZF4;
+				INFOPLIST_FILE = br.com.leandrotha.audiorecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leandro.br-com-leandrotha-audiorecognizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/br.com.leandrotha.audiorecognizer.app/br.com.leandrotha.audiorecognizer";
+			};
+			name = Release;
+		};
+		03EDDA9D21DF841B00F83FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL2AMM3ZF4;
+				INFOPLIST_FILE = br.com.leandrotha.audiorecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leandro.br-com-leandrotha-audiorecognizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = br.com.leandrotha.audiorecognizer;
+			};
+			name = Debug;
+		};
+		03EDDA9E21DF841B00F83FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL2AMM3ZF4;
+				INFOPLIST_FILE = br.com.leandrotha.audiorecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leandro.br-com-leandrotha-audiorecognizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = br.com.leandrotha.audiorecognizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03EDDA6921DF841900F83FE0 /* Build configuration list for PBXProject "br.com.leandrotha.audiorecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EDDA9421DF841B00F83FE0 /* Debug */,
+				03EDDA9521DF841B00F83FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03EDDA9621DF841B00F83FE0 /* Build configuration list for PBXNativeTarget "br.com.leandrotha.audiorecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EDDA9721DF841B00F83FE0 /* Debug */,
+				03EDDA9821DF841B00F83FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03EDDA9921DF841B00F83FE0 /* Build configuration list for PBXNativeTarget "br.com.leandrotha.audiorecognizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EDDA9A21DF841B00F83FE0 /* Debug */,
+				03EDDA9B21DF841B00F83FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03EDDA9C21DF841B00F83FE0 /* Build configuration list for PBXNativeTarget "br.com.leandrotha.audiorecognizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EDDA9D21DF841B00F83FE0 /* Debug */,
+				03EDDA9E21DF841B00F83FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03EDDA6621DF841900F83FE0 /* Project object */;
+}
