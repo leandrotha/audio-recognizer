@@ -12,6 +12,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="audio_recognizer" customModuleProvider="target">
             <connections>
+                <outlet property="btnListening" destination="RGN-bR-1sj" id="5r3-wK-6Dt"/>
+                <outlet property="lblListening" destination="a1c-ag-i7S" id="u6b-aG-SWX"/>
+                <outlet property="lblWord" destination="lzs-Xc-1IO" id="XrU-1J-8XP"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,8 +23,21 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzs-Xc-1IO">
-                    <rect key="frame" x="152" y="323" width="71" height="21"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RGN-bR-1sj">
+                    <rect key="frame" x="143" y="152" width="89" height="30"/>
+                    <state key="normal" title="Tap to talk"/>
+                    <connections>
+                        <action selector="onClickButton:" destination="-1" eventType="touchUpInside" id="gKN-pw-r0Q"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Listening" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1c-ag-i7S">
+                    <rect key="frame" x="152" y="109" width="70" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzs-Xc-1IO">
+                    <rect key="frame" x="16" y="339" width="343" height="20.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -29,9 +45,15 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="lzs-Xc-1IO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="152" id="Nul-v1-Pxl"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="lzs-Xc-1IO" secondAttribute="trailing" constant="152" id="TJC-9b-QkK"/>
-                <constraint firstItem="lzs-Xc-1IO" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="303" id="fgf-kd-ZgQ"/>
+                <constraint firstItem="a1c-ag-i7S" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="89" id="BP2-gG-9y4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="lzs-Xc-1IO" secondAttribute="trailing" constant="16" id="ESm-VV-ECB"/>
+                <constraint firstItem="lzs-Xc-1IO" firstAttribute="top" secondItem="RGN-bR-1sj" secondAttribute="bottom" constant="157" id="FjP-DP-cqz"/>
+                <constraint firstItem="a1c-ag-i7S" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="152" id="Np7-F3-5oK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="a1c-ag-i7S" secondAttribute="trailing" constant="153" id="Nrk-sM-LxE"/>
+                <constraint firstItem="RGN-bR-1sj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="143" id="aGl-jP-XIs"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="RGN-bR-1sj" secondAttribute="trailing" constant="143" id="c7q-9R-rZd"/>
+                <constraint firstItem="RGN-bR-1sj" firstAttribute="top" secondItem="a1c-ag-i7S" secondAttribute="bottom" constant="22" id="gfm-6X-asC"/>
+                <constraint firstItem="lzs-Xc-1IO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="jOv-SW-SAR"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
         </view>
