@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		039F7ABF21DF84E200127F0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F7ABE21DF84E200127F0A /* AppDelegate.swift */; };
-		039F7AC121DF84E200127F0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F7AC021DF84E200127F0A /* ViewController.swift */; };
-		039F7AC421DF84E200127F0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039F7AC221DF84E200127F0A /* Main.storyboard */; };
 		039F7AC621DF84E200127F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039F7AC521DF84E200127F0A /* Assets.xcassets */; };
 		039F7AC921DF84E200127F0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039F7AC721DF84E200127F0A /* LaunchScreen.storyboard */; };
 		039F7AD421DF84E200127F0A /* audio_recognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F7AD321DF84E200127F0A /* audio_recognizerTests.swift */; };
 		039F7ADF21DF84E200127F0A /* audio_recognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F7ADE21DF84E200127F0A /* audio_recognizerUITests.swift */; };
+		03A8FFEE21DF895100EF8EF9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A8FFEC21DF895100EF8EF9 /* HomeViewController.swift */; };
+		03A8FFEF21DF895100EF8EF9 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A8FFED21DF895100EF8EF9 /* HomeViewController.xib */; };
+		0E793443733A1B64B1DFD17C /* Pods_audio_recognizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DB749C47C1CC2A286AD296 /* Pods_audio_recognizerUITests.framework */; };
+		31364C3B2586D48469BB0EAD /* Pods_audio_recognizerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51767F6E3E19C0E66CC4C1D2 /* Pods_audio_recognizerTests.framework */; };
+		9E5514AB5EC1BEBDFD0F5A06 /* Pods_audio_recognizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22928F0CCC0FBACFF794297F /* Pods_audio_recognizer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +39,6 @@
 /* Begin PBXFileReference section */
 		039F7ABB21DF84E200127F0A /* audio-recognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "audio-recognizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		039F7ABE21DF84E200127F0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		039F7AC021DF84E200127F0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		039F7AC321DF84E200127F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		039F7AC521DF84E200127F0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		039F7AC821DF84E200127F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		039F7ACA21DF84E200127F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +48,17 @@
 		039F7ADA21DF84E200127F0A /* audio-recognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "audio-recognizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		039F7ADE21DF84E200127F0A /* audio_recognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audio_recognizerUITests.swift; sourceTree = "<group>"; };
 		039F7AE021DF84E200127F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03A8FFEC21DF895100EF8EF9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		03A8FFED21DF895100EF8EF9 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		22928F0CCC0FBACFF794297F /* Pods_audio_recognizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_audio_recognizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D7B91F05AA9258A438B68E7 /* Pods-audio-recognizerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-audio-recognizerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-audio-recognizerUITests/Pods-audio-recognizerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DE86794A8B2528B4A5B8DC1 /* Pods-audio-recognizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-audio-recognizer.release.xcconfig"; path = "Pods/Target Support Files/Pods-audio-recognizer/Pods-audio-recognizer.release.xcconfig"; sourceTree = "<group>"; };
+		35D3D8F75F36A93953D2D253 /* Pods-audio-recognizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-audio-recognizer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-audio-recognizer/Pods-audio-recognizer.debug.xcconfig"; sourceTree = "<group>"; };
+		4859E74487151E39295A512E /* Pods-audio-recognizerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-audio-recognizerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-audio-recognizerTests/Pods-audio-recognizerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51767F6E3E19C0E66CC4C1D2 /* Pods_audio_recognizerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_audio_recognizerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA1E156243B1E436139C857 /* Pods-audio-recognizerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-audio-recognizerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-audio-recognizerTests/Pods-audio-recognizerTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A05C3B10EBCD3EBBC52BEC3 /* Pods-audio-recognizerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-audio-recognizerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-audio-recognizerUITests/Pods-audio-recognizerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B7DB749C47C1CC2A286AD296 /* Pods_audio_recognizerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_audio_recognizerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E5514AB5EC1BEBDFD0F5A06 /* Pods_audio_recognizer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31364C3B2586D48469BB0EAD /* Pods_audio_recognizerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E793443733A1B64B1DFD17C /* Pods_audio_recognizerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				039F7AD221DF84E200127F0A /* audio-recognizerTests */,
 				039F7ADD21DF84E200127F0A /* audio-recognizerUITests */,
 				039F7ABC21DF84E200127F0A /* Products */,
+				1429B84511C41B6E2092FBD7 /* Pods */,
+				67403647B864AB01E7839AA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +114,8 @@
 		039F7ABD21DF84E200127F0A /* audio-recognizer */ = {
 			isa = PBXGroup;
 			children = (
+				03A8FFEA21DF890100EF8EF9 /* Home */,
 				039F7ABE21DF84E200127F0A /* AppDelegate.swift */,
-				039F7AC021DF84E200127F0A /* ViewController.swift */,
-				039F7AC221DF84E200127F0A /* Main.storyboard */,
 				039F7AC521DF84E200127F0A /* Assets.xcassets */,
 				039F7AC721DF84E200127F0A /* LaunchScreen.storyboard */,
 				039F7ACA21DF84E200127F0A /* Info.plist */,
@@ -125,6 +141,46 @@
 			path = "audio-recognizerUITests";
 			sourceTree = "<group>";
 		};
+		03A8FFEA21DF890100EF8EF9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				03A8FFEB21DF890F00EF8EF9 /* Domain */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		03A8FFEB21DF890F00EF8EF9 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				03A8FFEC21DF895100EF8EF9 /* HomeViewController.swift */,
+				03A8FFED21DF895100EF8EF9 /* HomeViewController.xib */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		1429B84511C41B6E2092FBD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35D3D8F75F36A93953D2D253 /* Pods-audio-recognizer.debug.xcconfig */,
+				2DE86794A8B2528B4A5B8DC1 /* Pods-audio-recognizer.release.xcconfig */,
+				4859E74487151E39295A512E /* Pods-audio-recognizerTests.debug.xcconfig */,
+				5FA1E156243B1E436139C857 /* Pods-audio-recognizerTests.release.xcconfig */,
+				2D7B91F05AA9258A438B68E7 /* Pods-audio-recognizerUITests.debug.xcconfig */,
+				7A05C3B10EBCD3EBBC52BEC3 /* Pods-audio-recognizerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		67403647B864AB01E7839AA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22928F0CCC0FBACFF794297F /* Pods_audio_recognizer.framework */,
+				51767F6E3E19C0E66CC4C1D2 /* Pods_audio_recognizerTests.framework */,
+				B7DB749C47C1CC2A286AD296 /* Pods_audio_recognizerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 039F7AE321DF84E200127F0A /* Build configuration list for PBXNativeTarget "audio-recognizer" */;
 			buildPhases = (
+				BDCF4D6FC69BC1E8DAEACCAD /* [CP] Check Pods Manifest.lock */,
 				039F7AB721DF84E200127F0A /* Sources */,
 				039F7AB821DF84E200127F0A /* Frameworks */,
 				039F7AB921DF84E200127F0A /* Resources */,
+				0BF1464BAC82F83B21279A84 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 039F7AE621DF84E200127F0A /* Build configuration list for PBXNativeTarget "audio-recognizerTests" */;
 			buildPhases = (
+				0ACED28A68309F54E6757875 /* [CP] Check Pods Manifest.lock */,
 				039F7ACB21DF84E200127F0A /* Sources */,
 				039F7ACC21DF84E200127F0A /* Frameworks */,
 				039F7ACD21DF84E200127F0A /* Resources */,
@@ -167,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 039F7AE921DF84E200127F0A /* Build configuration list for PBXNativeTarget "audio-recognizerUITests" */;
 			buildPhases = (
+				45F627C2A2BE989F2A3D4767 /* [CP] Check Pods Manifest.lock */,
 				039F7AD621DF84E200127F0A /* Sources */,
 				039F7AD721DF84E200127F0A /* Frameworks */,
 				039F7AD821DF84E200127F0A /* Resources */,
@@ -231,7 +291,7 @@
 			files = (
 				039F7AC921DF84E200127F0A /* LaunchScreen.storyboard in Resources */,
 				039F7AC621DF84E200127F0A /* Assets.xcassets in Resources */,
-				039F7AC421DF84E200127F0A /* Main.storyboard in Resources */,
+				03A8FFEF21DF895100EF8EF9 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +311,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0ACED28A68309F54E6757875 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-audio-recognizerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0BF1464BAC82F83B21279A84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-audio-recognizer/Pods-audio-recognizer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-audio-recognizer/Pods-audio-recognizer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45F627C2A2BE989F2A3D4767 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-audio-recognizerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDCF4D6FC69BC1E8DAEACCAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-audio-recognizer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		039F7AB721DF84E200127F0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				039F7AC121DF84E200127F0A /* ViewController.swift in Sources */,
 				039F7ABF21DF84E200127F0A /* AppDelegate.swift in Sources */,
+				03A8FFEE21DF895100EF8EF9 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +446,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		039F7AC221DF84E200127F0A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				039F7AC321DF84E200127F0A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		039F7AC721DF84E200127F0A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -430,6 +575,7 @@
 		};
 		039F7AE421DF84E200127F0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D3D8F75F36A93953D2D253 /* Pods-audio-recognizer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +594,7 @@
 		};
 		039F7AE521DF84E200127F0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE86794A8B2528B4A5B8DC1 /* Pods-audio-recognizer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +613,7 @@
 		};
 		039F7AE721DF84E200127F0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4859E74487151E39295A512E /* Pods-audio-recognizerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +635,7 @@
 		};
 		039F7AE821DF84E200127F0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FA1E156243B1E436139C857 /* Pods-audio-recognizerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +657,7 @@
 		};
 		039F7AEA21DF84E200127F0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D7B91F05AA9258A438B68E7 /* Pods-audio-recognizerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +678,7 @@
 		};
 		039F7AEB21DF84E200127F0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A05C3B10EBCD3EBBC52BEC3 /* Pods-audio-recognizerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
