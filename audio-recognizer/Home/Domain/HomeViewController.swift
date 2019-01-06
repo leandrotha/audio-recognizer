@@ -15,8 +15,8 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var btnListening: UIButton!
     
     let audioEngine = AVAudioEngine()
-    let speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "en-US"))
-    let request = SFSpeechAudioBufferRecognitionRequest()
+    let speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "pt-BR"))
+    var request: SFSpeechAudioBufferRecognitionRequest?
     var recognitionTask: SFSpeechRecognitionTask?
     
     override func viewDidLoad() {
@@ -34,16 +34,19 @@ class HomeViewController: UIViewController {
             recordAndRecognize()
             print("start")
         } else {
+            audioEngine.inputNode.removeTap(onBus: 0)
             audioEngine.stop()
             print("stop")
         }
     }
     
     func recordAndRecognize() {
+        self.request = SFSpeechAudioBufferRecognitionRequest()
+        
         let node = audioEngine.inputNode
         let recordingFormat = node.outputFormat(forBus: 0)
         node.installTap(onBus: 0, bufferSize: 1024, format: recordingFormat, block: { buffer, _ in
-            self.request.append(buffer)
+            self.request?.append(buffer)
         })
         
         audioEngine.prepare()
@@ -53,7 +56,7 @@ class HomeViewController: UIViewController {
             print(error.localizedDescription)
         }
         
-        recognitionTask = speechRecognizer?.recognitionTask(with: request, resultHandler: { result, error in
+        recognitionTask = speechRecognizer?.recognitionTask(with: request ?? SFSpeechAudioBufferRecognitionRequest(), resultHandler: { result, error in
             if let result = result {
                 self.lblWord.text = result.bestTranscription.formattedString
                 print(result)
@@ -62,8 +65,4 @@ class HomeViewController: UIViewController {
             }
         })
     }
-}
-
-extension HomeViewController: SFSpeechRecognizerDelegate {
-    
 }

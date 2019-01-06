@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "audio-recognizer/Strings/Strings.swift"
+            timestampString = "568499685.723079"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "homeChangeLanguage"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_0215D3712D94BD8BC5276BB5FF12B4E2_func0"
+                  moduleName = "audio-recognizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leandrotha/projetos_leandro/audio-recognizer/audio-recognizer/Strings/Strings.swift"
+                  timestampString = "568499540.5354021"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Swift.String in variable initialization expression of static audio_recognizer.Strings.homeChangeLanguage : Swift.String"
+                  moduleName = "audio-recognizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leandrotha/projetos_leandro/audio-recognizer/audio-recognizer/Strings/Strings.swift"
+                  timestampString = "568499540.538101"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "audio_recognizer.Strings.homeChangeLanguage.unsafeMutableAddressor : Swift.String"
+                  moduleName = "audio-recognizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leandrotha/projetos_leandro/audio-recognizer/audio-recognizer/Strings/Strings.swift"
+                  timestampString = "568499540.540561"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
